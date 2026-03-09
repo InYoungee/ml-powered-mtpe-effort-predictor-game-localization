@@ -160,10 +160,12 @@ This project uses difflib as the primary metric. Levenshtein-based retraining wi
 ## Project Structure
 
 ```
-├── feature_train.py         # Feature extraction + model training
+├── feature_train.py          # Feature extraction + model training
 ├── predict_new_strings.py    # Prediction script for new strings
+├── app.py                    # Streamlit web app
 ├── mt_effort_model.pkl       # Trained Gradient Boosting model
 ├── feature_columns.pkl       # Feature column names for prediction
+├── requirements.txt          # Python dependencies
 └── README.md
 ```
 
@@ -178,7 +180,7 @@ pip install pandas scikit-learn openpyxl
 
 ### Training
 ```bash
-python train_model_v2.py
+python feature_train.py
 ```
 Expects `strings_with_analysis.xlsx` with columns: `KO_Source`, `MT_Google`, `MT_DeepL`, `EN_Confirmed_Trans`, `Category_Consolidated`, `Effort_Label`
 
@@ -194,6 +196,7 @@ Expects `mt_test_deepl.xlsx` with columns: `KO_Source`, `MT_DeepL`, `EN_Confirme
 
 - **Python** — pandas, scikit-learn, difflib, re, pickle
 - **Models** — RandomForestClassifier, GradientBoostingClassifier
+- **App** — Streamlit, Plotly
 - **Data** — Real KO-EN game localization strings (819 pairs, 2025)
 
 ---
