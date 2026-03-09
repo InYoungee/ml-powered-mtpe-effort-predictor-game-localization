@@ -3,7 +3,7 @@ import re
 import difflib
 import pickle
 
-# ===== LOAD SAVED MODEL =====
+# ===== LOAD MODEL =====
 with open('mt_effort_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
@@ -18,7 +18,7 @@ print(f"✅ Loaded {len(df)} test strings")
 print(f"\nCategory distribution:")
 print(df['Category_Consolidated'].value_counts())
 
-# ===== CALCULATE SIMILARITY (DeepL vs Human) =====
+# ===== SIMILARITY (DeepL vs Human) =====
 def calc_similarity(str1, str2):
     """Calculate difflib similarity between two strings"""
     s1 = str(str1).strip().lower()
@@ -82,7 +82,7 @@ print("Predicting effort labels...")
 df['Predicted_Effort'] = model.predict(X)
 df['Confidence'] = model.predict_proba(X).max(axis=1).round(3)
 
-# ===== RESULTS SUMMARY =====
+# ===== SUMMARY =====
 print("\n=== PREDICTION RESULTS ===")
 print(f"\nPredicted effort distribution:")
 print(df['Predicted_Effort'].value_counts())
