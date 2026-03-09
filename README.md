@@ -1,6 +1,6 @@
 # ML-Powered MT Post-Edit Effort Predictor for Game Localization
 
-A machine learning project that predicts post-edit effort for Korean-to-English machine translation in game localization. Built by a localization professional with 6+ years of localization project management experience, combining domain expertise with Python-based ML to automate quality estimation at scale.
+A machine learning project that predicts post-edit effort for Korean-to-English machine translation in game localization. Built by a localization professional with 6+ years of localization project management experience, combining domain expertise with Python-based ML to automate quality estimation at scale as part of an ongoing exploration of AI/ML applications in localization workflows.
 
 ---
 
@@ -200,7 +200,5 @@ Expects `mt_test_deepl.xlsx` with columns: `KO_Source`, `MT_DeepL`, `EN_Confirme
 - **Data** — Real KO-EN game localization strings (819 pairs, 2025)
 
 ---
+![ML_MTPE_demo](https://github.com/user-attachments/assets/3533475d-8de7-491e-889e-dd2703613bae)
 
-## About
-
-Built by a Localization Project Manager with 6+ year experience, as part of an ongoing exploration of AI/ML applications in localization workflows.
