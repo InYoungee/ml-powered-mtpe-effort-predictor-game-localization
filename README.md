@@ -200,5 +200,6 @@ Expects `mt_test_deepl.xlsx` with columns: `KO_Source`, `MT_DeepL`, `EN_Confirme
 - **Data** — Real KO-EN game localization strings (819 pairs, 2025)
 
 ---
+## Demo
 ![ml_mtpedemo](https://github.com/InYoungee/ml-powered-mtpe-effort-predictor-game-localization/blob/main/images/ml_mtpe_demo.gif)
 
