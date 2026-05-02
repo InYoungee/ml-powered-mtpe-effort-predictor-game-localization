@@ -1,6 +1,6 @@
 # ML-Powered MT Post-Edit Effort Predictor for Game Localization
 
-A machine learning project that predicts post-edit effort for Korean-to-English machine translation in game localization. Built by a localization professional with 6+ years of localization project management experience, combining domain expertise with Python-based ML to automate quality estimation at scale as part of an ongoing exploration of AI/ML applications in localization workflows.
+A machine learning project that predicts post-edit effort for Korean-to-English machine translation in game localization. Built by a localization professional with localization project management experience, combining domain expertise with Python-based ML to automate quality estimation at scale as part of an ongoing exploration of AI/ML applications in localization workflows.
 
 ---
 
