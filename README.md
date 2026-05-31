@@ -15,6 +15,9 @@ In game localization, machine translation (MT) is increasingly used to accelerat
 Traditional QE (Quality Estimation) tools exist but are expensive, require external API integration, and are not tailored to game-specific content (HTML tags, placeholders, mixed KO/EN strings, game terminology). This project builds a lightweight, domain-specific QE model trained on real KO-EN game localization data.
 
 ---
+## Demo
+![ml_mtpedemo](https://github.com/InYoungee/ml-powered-mtpe-effort-predictor-game-localization/blob/main/images/ml_mtpe_demo.gif)
+---
 
 ## Dataset
 
